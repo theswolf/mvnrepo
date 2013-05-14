@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>core.september.cloudbadge</groupId>
   <artifactId>cloudbadgemodels</artifactId>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -21,6 +21,18 @@
         <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
     </configuration>
 	</plugin>
+	<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-source-plugin</artifactId>
+			<executions>
+				<execution>
+					<id>attach-sources</id>
+					<goals>
+						<goal>jar</goal>
+					</goals>
+				</execution>
+			</executions>
+	  </plugin>
 	  <plugin>
             <groupId>com.github.github</groupId>
             <artifactId>site-maven-plugin</artifactId>
