@@ -3,10 +3,10 @@
   <groupId>core.september.cloudbadge</groupId>
   <artifactId>cloudbadgemodels</artifactId>
   <versioning>
-    <release>0.1.4</release>
+    <release>0.1.5</release>
     <versions>
-      <version>0.1.4</version>
+      <version>0.1.5</version>
     </versions>
-    <lastUpdated>20130514191800</lastUpdated>
+    <lastUpdated>20130520124200</lastUpdated>
   </versioning>
 </metadata>
